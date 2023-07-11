@@ -5,6 +5,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
+
 /* Banner Section Style Start */
 .banner-container {
     display: flex;
@@ -20,7 +21,7 @@ body {
     margin-bottom: 32px;
 }
 .banner-info {
-    font-size: 18px;
+    font-size: 17px;
     color: rgba(39, 39, 39, 0.60);
     margin-bottom: 32px;
 }
@@ -41,6 +42,8 @@ body {
 }
 .featured-description {
     margin-bottom: 48px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
 }
 .featured-content {
     display: flex;
@@ -91,6 +94,7 @@ body {
    margin-top: 32px;
    text-decoration: underline;
    font-size: 20px;
+   color: #272727;
 }
 
 /* Service Section Style */
@@ -104,10 +108,10 @@ body {
     margin: 165px 240px 128px 240px;
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
+    font-size: 16px;
 }
 
 /* Sign Up Section Style */
-
 .sign-up-container {
     display: flex;
     align-items: center;
@@ -124,6 +128,7 @@ body {
 .sign-up-description{
     color: rgba(39, 39, 39, 0.60);
     margin-bottom: 32px;
+    font-size: 16px;
 }
 
 /*  Instagram Section Style */
@@ -141,7 +146,7 @@ body {
 .insta-description{
     color: rgba(39, 39, 39, 0.60);
     margin-bottom: 48px;
-    font-size: 18px;
+    font-size: 16px;
 }
 .insta-content{
     display: flex;
@@ -149,6 +154,8 @@ body {
     align-items: center;
     gap: 24px;
 }
+
+/* Deals Section Style Start */
 .deals{
     padding-top: 128px;
 }
@@ -162,6 +169,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-size: 16px;
 }
 .subscription-info{
     display: flex;
@@ -182,7 +190,6 @@ input{
 }
 
 /* Footer Area Style */
-
 footer{
     background: #000;
     padding-top: 40px;
@@ -207,7 +214,9 @@ span{
     margin: 10px auto;
     font-size: 14px;
     padding: 18px;
+    color: rgba(255, 255, 255, 0.70);
 }
 small{
     padding: 20px;
+    color: rgba(255, 255, 255, 0.40);
 }
