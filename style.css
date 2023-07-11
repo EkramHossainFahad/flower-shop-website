@@ -31,9 +31,28 @@ body{
     color: white;
     font-size: 20px;
 }
-.banner-side-pic{
-    margin-bottom: 0px;
+
+/* Sign Up Section Style */
+.sign-up-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FDF6F8;
+    gap: 86px;
+    padding: 100px;
 }
+.title{
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+.sign-up-description{
+    color: rgba(39, 39, 39, 0.60);
+    margin-bottom: 32px;
+}
+.btn{
+    margin-left: 200px;
+}
+
 
 
 
