@@ -1,11 +1,13 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
-body{
+
+body {
     font-family: 'Open Sans', sans-serif;
 }
-.banner-container{
+
+.banner-container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -13,17 +15,20 @@ body{
     gap: 97px;
     background-color: #FDEEF1;
 }
-.banner-title{
+
+.banner-title {
     font-size: 80px;
     color: #272727;
     margin-bottom: 32px;
 }
-.banner-info{
+
+.banner-info {
     font-size: 18px;
     color: rgba(39, 39, 39, 0.60);
     margin-bottom: 32px;
 }
-.btn-primary{
+
+.btn-primary {
     background-color: #E55473;
     border-radius: 8px;
     border: none;
@@ -33,7 +38,7 @@ body{
 }
 
 /* Sign Up Section Style */
-.sign-up-container{
+.sign-up-container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -42,43 +47,71 @@ body{
     padding: 100px;
     text-align: center;
 }
-.title{
+
+.title {
     font-size: 40px;
     margin-bottom: 24px;
 }
-.sign-up-description{
+
+.sign-up-description {
     color: rgba(39, 39, 39, 0.60);
     margin-bottom: 32px;
 }
 
 /*  Instagram Section Style */
-.instagram-container{
+.instagram-container {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     padding: 128px 228px;
 }
-.insta-title{
+.insta-title {
     text-align: center;
     margin-bottom: 24px;
 }
-.insta-description{
+.insta-description {
     color: rgba(39, 39, 39, 0.60);
     margin-bottom: 48px;
+    font-size: 18px;
 }
-
-
-.insta-content{
+.insta-content {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 24px;
 }
-.deals{
+.deals {
     padding-top: 128px;
 }
-
+.deal-content {
+    position: relative;
+    text-align: center;
+    color: black;
+}
+.deal-subscribe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.subscription-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+input{
+    border-radius: 8px;
+    border: none;
+    padding: 20px 400px 20px 20px;
+    font-size: 20px;
+    color: rgba(39, 39, 39, 0.60);
+    margin-top: 48px;
+}
+.bttn{
+    margin-top: 48px;
+}
 
 
 
@@ -87,12 +120,13 @@ body{
 
 /* Footer Area Style */
 
-footer{
+footer {
     background: #000;
     padding-top: 40px;
     color: white;
 }
-.footer-content{
+
+.footer-content {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -100,18 +134,22 @@ footer{
     text-align: center;
     padding: 90px;
 }
-.footer-title{
+
+.footer-title {
     font-size: 35px;
-} 
-span{
+}
+
+span {
     color: #E55473;
 }
-.footer-description{
+
+.footer-description {
     max-width: 500px;
     margin: 10px auto;
     font-size: 14px;
     padding: 18px;
 }
-small{
+
+small {
     padding: 20px;
-} 
+}
