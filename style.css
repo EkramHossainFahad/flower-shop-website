@@ -2,3 +2,72 @@
     margin: 0px;
     padding: 0px;
 }
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.banner-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 50px 0px 50px;
+    gap: 97px;
+    background-color: #FDEEF1;
+}
+.banner-title{
+    font-size: 80px;
+    color: #272727;
+    margin-bottom: 32px;
+}
+.banner-info{
+    font-size: 18px;
+    color: rgba(39, 39, 39, 0.60);
+    margin-bottom: 32px;
+}
+.btn-primary{
+    background-color: #E55473;
+    border-radius: 8px;
+    border: none;
+    padding: 20px 43px;
+    color: white;
+    font-size: 20px;
+}
+.banner-side-pic{
+    margin-bottom: 0px;
+}
+
+
+
+
+
+
+
+/* Footer Area Style */
+
+footer{
+    background: #000;
+    padding-top: 40px;
+    color: white;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 90px;
+}
+.footer-title{
+    font-size: 35px;
+} 
+span{
+    color: #E55473;
+}
+.footer-description{
+    max-width: 500px;
+    margin: 10px auto;
+    font-size: 14px;
+    padding: 18px;
+}
+small{
+    padding: 20px;
+} 
